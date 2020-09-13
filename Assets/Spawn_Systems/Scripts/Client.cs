@@ -1,14 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Client : MonoBehaviour
 {
-    public VehicleRequirements vehicleReqs = new VehicleRequirements();
+    public AMFRequirements amfReqs = new AMFRequirements();
 
-    private static IVehicle GetVehicle(VehicleRequirements reqs)
+    public TextMeshProUGUI spawnedVehicle;
+    private static IAMF GetAMF(AMFRequirements reqs)
     {
-        VehicleFactory _factory = new VehicleFactory(reqs);
+        AMFFactory _factory = new AMFFactory(reqs);
         return _factory.Create();
     }
 
@@ -16,32 +18,31 @@ public class Client : MonoBehaviour
 
 
 
-    #region UI Setting Vehicle Requirements
-    public void SetWheelCount(int wheelCount)
+    #region UI Setting Anim/Mech/Fail Requirements
+    public void SetWingCount(int wingCount)
     {
-        vehicleReqs.wheelCount = wheelCount + 1;//UI pass offset
-    }
-    public void SetPassengerCount(int passengerCount)
-    {
-        vehicleReqs.passengerCount = passengerCount + 1;//UI pass offset
+        amfReqs.wingCount = wingCount * 2;//UI pass offset
     }
 
-    public void SetUsesEngine(bool useEngine)
+    public void SetIsMoving(bool isMoving)
     {
-        vehicleReqs.bEngine = useEngine;
+        amfReqs.bMoving = isMoving;
+    }
+    public void SetAMFType(int amfType)
+    {
+        amfReqs.amfType = (AMFType)amfType;
     }
 
-    public void SetHasCargo(bool useCargo)
-    {
-        vehicleReqs.bCargo = useCargo; //Ignored in the factory
-    }
 
     #endregion UI Setting Vehicle Requirements
 
-    public void CreateVehicle()
+    public void CreateAMF()
     {
-        IVehicle vhc = GetVehicle(vehicleReqs);
-        Debug.Log(vhc + " produced");
+
+        Destroy(GameObject.FindGameObjectWithTag("AMF")); //clear out last obj
+
+        IAMF vhc = GetAMF(amfReqs);
+        spawnedVehicle.text = "Spawned a: " + vhc.ToString();
     }
 
 }

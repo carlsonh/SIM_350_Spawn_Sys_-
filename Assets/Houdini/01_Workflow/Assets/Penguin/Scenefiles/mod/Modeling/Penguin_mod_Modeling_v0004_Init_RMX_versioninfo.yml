@@ -1,0 +1,20 @@
+!!omap
+- category: Modeling
+- comment: Init
+- extension: .hiplc
+- basePath: /HWK/ERAU/Active Courses/SIM 335 Game Eng Arch/SIM_335_Spawn_Systems_++/Assets/Houdini/01_Workflow/Assets/Penguin/Scenefiles/mod/Modeling
+- filename: /HWK/ERAU/Active Courses/SIM 335 Game Eng Arch/SIM_335_Spawn_Systems_++/Assets/Houdini/01_Workflow/Assets/Penguin/Scenefiles/mod/Modeling/Penguin_mod_Modeling_v0004_Init_RMX_.hiplc
+- username: Remex Remex
+- step: mod
+- version: v0004
+- user: RMX
+- entity: asset
+- entityName: Penguin
+- information: !!omap
+  - Version: v0004
+  - Creation date: 12.09.20 18:48:35
+  - filename: Penguin_mod_Modeling_v0004_Init_RMX_.hiplc
+  - Dependencies: []
+  - Created by: Remex Remex
+  - FPS: 24.0
+  - External files: []

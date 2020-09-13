@@ -1,0 +1,20 @@
+!!omap
+- category: Modeling
+- comment: init
+- extension: .hiplc
+- basePath: /HWK/ERAU/Active Courses/SIM 335 Game Eng Arch/SIM_335_Spawn_Systems_++/Assets/Houdini/01_Workflow/Assets/Bird/Scenefiles/mod/Modeling
+- filename: /HWK/ERAU/Active Courses/SIM 335 Game Eng Arch/SIM_335_Spawn_Systems_++/Assets/Houdini/01_Workflow/Assets/Bird/Scenefiles/mod/Modeling/Bird_mod_Modeling_v0004_init_RMX_.hiplc
+- username: Remex Remex
+- step: mod
+- version: v0004
+- user: RMX
+- entity: asset
+- entityName: Bird
+- information: !!omap
+  - Version: v0004
+  - Creation date: 11.09.20 21:26:37
+  - filename: Bird_mod_Modeling_v0004_init_RMX_.hiplc
+  - Dependencies: []
+  - Created by: Remex Remex
+  - FPS: 24.0
+  - External files: []

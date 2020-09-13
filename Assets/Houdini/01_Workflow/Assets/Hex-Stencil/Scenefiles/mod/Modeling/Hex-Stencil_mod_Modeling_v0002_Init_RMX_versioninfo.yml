@@ -1,0 +1,20 @@
+!!omap
+- category: Modeling
+- comment: Init
+- extension: .hiplc
+- basePath: /HWK/ERAU/Active Courses/SIM 335 Game Eng Arch/SIM_335_Spawn_Systems_++/Assets/Houdini/01_Workflow/Assets/Hex-Stencil/Scenefiles/mod/Modeling
+- filename: /HWK/ERAU/Active Courses/SIM 335 Game Eng Arch/SIM_335_Spawn_Systems_++/Assets/Houdini/01_Workflow/Assets/Hex-Stencil/Scenefiles/mod/Modeling/Hex-Stencil_mod_Modeling_v0002_Init_RMX_.hiplc
+- username: Remex Remex
+- step: mod
+- version: v0002
+- user: RMX
+- entity: asset
+- entityName: Hex-Stencil
+- information: !!omap
+  - Version: v0002
+  - Creation date: 13.09.20 10:08:57
+  - filename: Hex-Stencil_mod_Modeling_v0002_Init_RMX_.hiplc
+  - Dependencies: []
+  - Created by: Remex Remex
+  - FPS: 24.0
+  - External files: []

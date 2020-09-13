@@ -1,0 +1,20 @@
+!!omap
+- category: Modeling
+- comment: Init
+- extension: .hiplc
+- basePath: /HWK/ERAU/Active Courses/SIM 335 Game Eng Arch/SIM_335_Spawn_Systems_++/Assets/Houdini/01_Workflow/Assets/Kayle/Scenefiles/mod/Modeling
+- filename: /HWK/ERAU/Active Courses/SIM 335 Game Eng Arch/SIM_335_Spawn_Systems_++/Assets/Houdini/01_Workflow/Assets/Kayle/Scenefiles/mod/Modeling/Kayle_mod_Modeling_v0002_Init_rre_.hiplc
+- username: Remex Remex
+- step: mod
+- version: v0002
+- user: rre
+- entity: asset
+- entityName: Kayle
+- information: !!omap
+  - Version: v0002
+  - Creation date: 11.09.20 18:52:08
+  - filename: Kayle_mod_Modeling_v0002_Init_rre_.hiplc
+  - Dependencies: []
+  - Created by: Remex Remex
+  - FPS: 24.0
+  - External files: []

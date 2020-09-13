@@ -4,5 +4,5 @@ using UnityEngine;
 
 public abstract class AbstractVehicleFactory
 {
-    public abstract IVehicle Create();
+    public abstract IAMF Create();
 }
